@@ -1,0 +1,5 @@
+experimento,métrica,resultado publicado,resultado obtido,tipo de execução,diferença,explicação provável
+Focus Concept Selection,"F1 (ScispaCy Biomedical, sem fine-tuning)",0.69,0.7200,Adaptada,+0.0300,Modelo biomédico pequeno 0.5.4 e amostra manual de 20 itens; o artigo descreve 600 descrições anotadas.
+Focus Concept Selection,F1 (fine-tuned parser),0.95,0.7200,Adaptada,-0.2300,"Sem fine-tuning, com modelo pequeno e amostra manual de 20 itens; não o corpus/treino original."
+Relation Classification,F1 ponderado,0.89,0.6085,Adaptada,-0.2815,TF-IDF + regressão logística e 14 exemplos manuais de teste; artigo avalia 854 anotações com o classificador original.
+Relation Classification,F1 macro,0.85,0.5651,Adaptada,-0.2849,TF-IDF + regressão logística e 14 exemplos manuais de teste; artigo avalia 854 anotações com o classificador original.

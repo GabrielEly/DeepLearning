@@ -1,0 +1,26 @@
+id,text,focus
+f01,Severe headache after exercise,headache
+f02,Persistent migraine with nausea,migraine
+f03,Acute pneumonia with fever,pneumonia
+f04,Chronic asthma symptoms,asthma
+f05,Possible appendicitis with abdominal pain,appendicitis
+f06,Type 2 diabetes mellitus,diabetes
+f07,Peripheral neuropathy,neuropathy
+f08,Depression with insomnia,depression
+f09,Dry cough after exposure,cough
+f10,Left hand numbness,numbness
+f11,Fever after vaccination,fever
+f12,Right wrist fracture,fracture
+f13,Hip osteoarthritis,osteoarthritis
+f14,Anxiety after a stressful event,anxiety
+f15,Abdominal pain after meals,pain
+f16,Visual impairment,impairment
+f17,Urinary tract infection,infection
+f18,Dizziness after standing,dizziness
+f19,Iron deficiency anemia,anemia
+f20,Acute bronchitis with wheezing,bronchitis
+f21,Severe lower back pain,back pain
+f22,Chronic kidney disease,kidney disease
+f23,Left shoulder weakness,weakness
+f24,Transient dizziness after standing,dizziness
+f25,New onset chest tightness,chest tightness

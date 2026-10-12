@@ -1,0 +1,41 @@
+id,context,source,target,label
+tr01,Patient reports right-sided headache,headache,right,laterality
+tr02,Left knee pain worsens with walking,knee pain,left,laterality
+tr03,Bilateral hand numbness at night,hand numbness,bilateral,laterality
+tr04,Pain affects the right ankle,pain,right ankle,laterality
+tr05,Pain is located in the lower abdomen,pain,lower abdomen,bodySite
+tr06,Lesion involves the left lung,lesion,left lung,bodySite
+tr07,Tenderness over the cervical spine,tenderness,cervical spine,bodySite
+tr08,Rash on the forearm,skin rash,forearm,bodySite
+tr09,Severe back pain limits movement,back pain,severe,severity
+tr10,Mild headache began this morning,headache,mild,severity
+tr11,Moderate nausea after eating,nausea,moderate,severity
+tr12,Marked swelling of the knee,knee swelling,marked,severity
+tr13,Possible migraine without aura,headache,possible,certainty
+tr14,Probable bacterial pneumonia,pneumonia,probable,certainty
+tr15,Suspected appendicitis,abdominal pain,suspected,certainty
+tr16,Questionable viral infection,respiratory infection,questionable,certainty
+tr17,Chronic cough for several months,cough,chronic,clinicalStatus
+tr18,Recurrent migraine episodes,migraine,recurrent,clinicalStatus
+tr19,Acute bronchitis with wheezing,bronchitis,acute,clinicalStatus
+tr20,Resolved skin rash,skin rash,resolved,clinicalStatus
+tr21,Cough accompanied by fever,cough,fever,associatedSignAndSymptom
+tr22,Migraine with nausea,migraine,nausea,associatedSignAndSymptom
+tr23,Headache accompanied by photophobia,headache,photophobia,associatedSignAndSymptom
+tr24,Rash associated with itching,skin rash,itching,associatedSignAndSymptom
+tr25,Neuropathy due to diabetes,neuropathy,diabetes,dueTo
+tr26,Pneumonia caused by influenza,pneumonia,influenza,dueTo
+tr27,Headache secondary to head trauma,headache,head trauma,dueTo
+tr28,Kidney injury from dehydration,kidney injury,dehydration,dueTo
+tr29,Chest pain on the left side,chest pain,left,laterality
+tr30,Swelling in the right knee,knee swelling,right,laterality
+tr31,Headache associated with vomiting,headache,vomiting,associatedSignAndSymptom
+tr32,Shortness of breath with chest tightness,shortness of breath,chest tightness,associatedSignAndSymptom
+tr33,Asthma triggered by pollen,asthma,pollen,dueTo
+tr34,Diarrhea caused by gastroenteritis,diarrhea,gastroenteritis,dueTo
+tr35,Severe respiratory distress,respiratory distress,severe,severity
+tr36,Moderate abdominal pain,abdominal pain,moderate,severity
+tr37,Likely viral bronchitis,bronchitis,likely,certainty
+tr38,Confirmed urinary tract infection,urinary tract infection,confirmed,certainty
+tr39,Progressive weakness in the leg,weakness,progressive,clinicalStatus
+tr40,Improved rash over one week,rash,improved,clinicalStatus

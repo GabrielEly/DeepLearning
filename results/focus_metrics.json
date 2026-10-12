@@ -1,0 +1,271 @@
+{
+  "experiment": "Focus Concept Selection",
+  "execution_type": "adapted",
+  "dataset_origin": "Manually authored examples; held-out evaluation set",
+  "sample_size": 25,
+  "parser": "en_core_sci_sm 0.5.4 (ScispaCy Biomedical; not fine-tuned)",
+  "runtime": {
+    "python_version": "3.9.13",
+    "pip_version": "22.0.4",
+    "spacy_version": "3.7.5"
+  },
+  "selection_rule": "Select the unique spaCy token whose dependency label is ROOT, matching the root-selection rule in api.py.",
+  "matching_rule": "Case-insensitive exact match between the annotated focus token and predicted root token.",
+  "metrics": {
+    "precision_micro": 0.72,
+    "recall_micro": 0.72,
+    "f1_micro": 0.72
+  },
+  "per_class": {
+    "anemia": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "anxiety": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "appendicitis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "asthma": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "back pain": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "bronchitis": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "chest tightness": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "cough": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "depression": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "diabetes": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "disease": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "dizziness": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "fever": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "fracture": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "headache": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "impairment": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "infection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "kidney disease": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "mellitus": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "migraine": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "neuropathy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "numbness": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "osteoarthritis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "pain": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "peripheral": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "pneumonia": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "severe": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "symptoms": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "tightness": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "weakness": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "wheezing": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.72,
+    "macro avg": {
+      "precision": 0.5483870967741935,
+      "recall": 0.5483870967741935,
+      "f1-score": 0.5483870967741935,
+      "support": 25.0
+    },
+    "weighted avg": {
+      "precision": 0.72,
+      "recall": 0.72,
+      "f1-score": 0.72,
+      "support": 25.0
+    }
+  },
+  "errors": [
+    {
+      "id": "f04",
+      "text": "Chronic asthma symptoms",
+      "expected_focus": "asthma",
+      "predicted_root": "symptoms",
+      "correct": false
+    },
+    {
+      "id": "f06",
+      "text": "Type 2 diabetes mellitus",
+      "expected_focus": "diabetes",
+      "predicted_root": "mellitus",
+      "correct": false
+    },
+    {
+      "id": "f07",
+      "text": "Peripheral neuropathy",
+      "expected_focus": "neuropathy",
+      "predicted_root": "Peripheral",
+      "correct": false
+    },
+    {
+      "id": "f20",
+      "text": "Acute bronchitis with wheezing",
+      "expected_focus": "bronchitis",
+      "predicted_root": "wheezing",
+      "correct": false
+    },
+    {
+      "id": "f21",
+      "text": "Severe lower back pain",
+      "expected_focus": "back pain",
+      "predicted_root": "Severe",
+      "correct": false
+    },
+    {
+      "id": "f22",
+      "text": "Chronic kidney disease",
+      "expected_focus": "kidney disease",
+      "predicted_root": "disease",
+      "correct": false
+    },
+    {
+      "id": "f25",
+      "text": "New onset chest tightness",
+      "expected_focus": "chest tightness",
+      "predicted_root": "tightness",
+      "correct": false
+    }
+  ]
+}

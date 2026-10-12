@@ -1,0 +1,179 @@
+{
+  "experiment": "Relation Classification",
+  "execution_type": "adapted",
+  "dataset_origin": "Manually authored examples",
+  "training_size": 40,
+  "test_size": 26,
+  "training_labels": [
+    "associatedSignAndSymptom",
+    "bodySite",
+    "certainty",
+    "clinicalStatus",
+    "dueTo",
+    "laterality",
+    "severity"
+  ],
+  "test_labels": [
+    "associatedSignAndSymptom",
+    "bodySite",
+    "certainty",
+    "clinicalStatus",
+    "dueTo",
+    "laterality",
+    "severity"
+  ],
+  "classifier": "TF-IDF unigram/bigram features with scikit-learn LogisticRegression",
+  "runtime": {
+    "python_version": "3.9.13",
+    "pip_version": "22.0.4",
+    "scikit_learn_version": "1.6.1"
+  },
+  "metrics": {
+    "precision_weighted": 0.6615384615384615,
+    "recall_weighted": 0.6538461538461539,
+    "f1_weighted": 0.6085470085470085,
+    "precision_macro": 0.6142857142857142,
+    "recall_macro": 0.6071428571428571,
+    "f1_macro": 0.5650793650793651
+  },
+  "per_class": {
+    "associatedSignAndSymptom": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 4.0
+    },
+    "bodySite": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "certainty": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "clinicalStatus": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1-score": 0.4,
+      "support": 4.0
+    },
+    "dueTo": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 4.0
+    },
+    "laterality": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 4.0
+    },
+    "severity": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 4.0
+    },
+    "accuracy": 0.6538461538461539,
+    "macro avg": {
+      "precision": 0.6142857142857142,
+      "recall": 0.6071428571428571,
+      "f1-score": 0.5650793650793651,
+      "support": 26.0
+    },
+    "weighted avg": {
+      "precision": 0.6615384615384615,
+      "recall": 0.6538461538461539,
+      "f1-score": 0.6085470085470085,
+      "support": 26.0
+    }
+  },
+  "errors": [
+    {
+      "id": "te03",
+      "context": "Discomfort in the upper chest",
+      "source": "discomfort",
+      "target": "upper chest",
+      "expected_relation": "bodySite",
+      "predicted_relation": "laterality",
+      "correct": false
+    },
+    {
+      "id": "te04",
+      "context": "Inflammation affects the middle ear",
+      "source": "inflammation",
+      "target": "middle ear",
+      "expected_relation": "bodySite",
+      "predicted_relation": "laterality",
+      "correct": false
+    },
+    {
+      "id": "te05",
+      "context": "Excruciating facial pain",
+      "source": "facial pain",
+      "target": "excruciating",
+      "expected_relation": "severity",
+      "predicted_relation": "laterality",
+      "correct": false
+    },
+    {
+      "id": "te06",
+      "context": "Low-grade fever",
+      "source": "fever",
+      "target": "low-grade",
+      "expected_relation": "severity",
+      "predicted_relation": "associatedSignAndSymptom",
+      "correct": false
+    },
+    {
+      "id": "te09",
+      "context": "Persistent lumbar pain",
+      "source": "lumbar pain",
+      "target": "persistent",
+      "expected_relation": "clinicalStatus",
+      "predicted_relation": "laterality",
+      "correct": false
+    },
+    {
+      "id": "te10",
+      "context": "Newly developed asthma",
+      "source": "asthma",
+      "target": "newly developed",
+      "expected_relation": "clinicalStatus",
+      "predicted_relation": "dueTo",
+      "correct": false
+    },
+    {
+      "id": "te12",
+      "context": "Abdominal pain with vomiting",
+      "source": "abdominal pain",
+      "target": "vomiting",
+      "expected_relation": "associatedSignAndSymptom",
+      "predicted_relation": "severity",
+      "correct": false
+    },
+    {
+      "id": "te17",
+      "context": "Lower back pain with tingling",
+      "source": "lower back pain",
+      "target": "tingling",
+      "expected_relation": "associatedSignAndSymptom",
+      "predicted_relation": "severity",
+      "correct": false
+    },
+    {
+      "id": "te25",
+      "context": "Persistent fever after treatment",
+      "source": "fever",
+      "target": "persistent",
+      "expected_relation": "clinicalStatus",
+      "predicted_relation": "associatedSignAndSymptom",
+      "correct": false
+    }
+  ]
+}

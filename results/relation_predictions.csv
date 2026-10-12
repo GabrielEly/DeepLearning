@@ -1,0 +1,27 @@
+id,context,source,target,expected_relation,predicted_relation,correct
+te01,Left-sided wrist numbness,wrist numbness,left,laterality,laterality,True
+te02,Right hip pain,hip pain,right,laterality,laterality,True
+te03,Discomfort in the upper chest,discomfort,upper chest,bodySite,laterality,False
+te04,Inflammation affects the middle ear,inflammation,middle ear,bodySite,laterality,False
+te05,Excruciating facial pain,facial pain,excruciating,severity,laterality,False
+te06,Low-grade fever,fever,low-grade,severity,associatedSignAndSymptom,False
+te07,Presumed bacterial pneumonia,pneumonia,presumed,certainty,certainty,True
+te08,Possible urinary infection,urinary infection,possible,certainty,certainty,True
+te09,Persistent lumbar pain,lumbar pain,persistent,clinicalStatus,laterality,False
+te10,Newly developed asthma,asthma,newly developed,clinicalStatus,dueTo,False
+te11,Shortness of breath with wheezing,shortness of breath,wheezing,associatedSignAndSymptom,associatedSignAndSymptom,True
+te12,Abdominal pain with vomiting,abdominal pain,vomiting,associatedSignAndSymptom,severity,False
+te13,Anemia resulting from iron deficiency,anemia,iron deficiency,dueTo,dueTo,True
+te14,Renal failure caused by obstruction,renal failure,obstruction,dueTo,dueTo,True
+te15,Left-sided facial weakness,facial weakness,left,laterality,laterality,True
+te16,Leg swelling on the right,leg swelling,right,laterality,laterality,True
+te17,Lower back pain with tingling,lower back pain,tingling,associatedSignAndSymptom,severity,False
+te18,Asthma with cough,asthma,cough,associatedSignAndSymptom,associatedSignAndSymptom,True
+te19,Anemia secondary to chronic blood loss,anemia,chronic blood loss,dueTo,dueTo,True
+te20,Bronchitis following influenza,bronchitis,influenza,dueTo,dueTo,True
+te21,Moderate dyspnea on exertion,dyspnea,moderate,severity,severity,True
+te22,Severe chest pain,chest pain,severe,severity,severity,True
+te23,Possible renal failure,renal failure,possible,certainty,certainty,True
+te24,Probable myocarditis,myocarditis,probable,certainty,certainty,True
+te25,Persistent fever after treatment,fever,persistent,clinicalStatus,associatedSignAndSymptom,False
+te26,Resolved wheezing,wheezing,resolved,clinicalStatus,clinicalStatus,True

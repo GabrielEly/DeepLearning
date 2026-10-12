@@ -1,0 +1,26 @@
+id,text,expected_focus,predicted_root,correct
+f01,Severe headache after exercise,headache,headache,True
+f02,Persistent migraine with nausea,migraine,migraine,True
+f03,Acute pneumonia with fever,pneumonia,pneumonia,True
+f04,Chronic asthma symptoms,asthma,symptoms,False
+f05,Possible appendicitis with abdominal pain,appendicitis,appendicitis,True
+f06,Type 2 diabetes mellitus,diabetes,mellitus,False
+f07,Peripheral neuropathy,neuropathy,Peripheral,False
+f08,Depression with insomnia,depression,Depression,True
+f09,Dry cough after exposure,cough,cough,True
+f10,Left hand numbness,numbness,numbness,True
+f11,Fever after vaccination,fever,Fever,True
+f12,Right wrist fracture,fracture,fracture,True
+f13,Hip osteoarthritis,osteoarthritis,osteoarthritis,True
+f14,Anxiety after a stressful event,anxiety,Anxiety,True
+f15,Abdominal pain after meals,pain,pain,True
+f16,Visual impairment,impairment,impairment,True
+f17,Urinary tract infection,infection,infection,True
+f18,Dizziness after standing,dizziness,Dizziness,True
+f19,Iron deficiency anemia,anemia,anemia,True
+f20,Acute bronchitis with wheezing,bronchitis,wheezing,False
+f21,Severe lower back pain,back pain,Severe,False
+f22,Chronic kidney disease,kidney disease,disease,False
+f23,Left shoulder weakness,weakness,weakness,True
+f24,Transient dizziness after standing,dizziness,dizziness,True
+f25,New onset chest tightness,chest tightness,tightness,False

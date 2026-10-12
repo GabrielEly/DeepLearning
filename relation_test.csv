@@ -1,0 +1,27 @@
+id,context,source,target,label
+te01,Left-sided wrist numbness,wrist numbness,left,laterality
+te02,Right hip pain,hip pain,right,laterality
+te03,Discomfort in the upper chest,discomfort,upper chest,bodySite
+te04,Inflammation affects the middle ear,inflammation,middle ear,bodySite
+te05,Excruciating facial pain,facial pain,excruciating,severity
+te06,Low-grade fever,fever,low-grade,severity
+te07,Presumed bacterial pneumonia,pneumonia,presumed,certainty
+te08,Possible urinary infection,urinary infection,possible,certainty
+te09,Persistent lumbar pain,lumbar pain,persistent,clinicalStatus
+te10,Newly developed asthma,asthma,newly developed,clinicalStatus
+te11,Shortness of breath with wheezing,shortness of breath,wheezing,associatedSignAndSymptom
+te12,Abdominal pain with vomiting,abdominal pain,vomiting,associatedSignAndSymptom
+te13,Anemia resulting from iron deficiency,anemia,iron deficiency,dueTo
+te14,Renal failure caused by obstruction,renal failure,obstruction,dueTo
+te15,Left-sided facial weakness,facial weakness,left,laterality
+te16,Leg swelling on the right,leg swelling,right,laterality
+te17,Lower back pain with tingling,lower back pain,tingling,associatedSignAndSymptom
+te18,Asthma with cough,asthma,cough,associatedSignAndSymptom
+te19,Anemia secondary to chronic blood loss,anemia,chronic blood loss,dueTo
+te20,Bronchitis following influenza,bronchitis,influenza,dueTo
+te21,Moderate dyspnea on exertion,dyspnea,moderate,severity
+te22,Severe chest pain,chest pain,severe,severity
+te23,Possible renal failure,renal failure,possible,certainty
+te24,Probable myocarditis,myocarditis,probable,certainty
+te25,Persistent fever after treatment,fever,persistent,clinicalStatus
+te26,Resolved wheezing,wheezing,resolved,clinicalStatus
